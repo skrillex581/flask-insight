@@ -60,3 +60,8 @@ target/
 
 #Ipython Notebook
 .ipynb_checkpoints
+
+#Flask stuff
+db_repository/
+config.py
+*.db
