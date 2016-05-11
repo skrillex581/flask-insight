@@ -63,6 +63,6 @@ target/
 
 #Flask stuff
 db_repository/
-config.py
+#config.py
 *.db
 tmp/
