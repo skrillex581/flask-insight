@@ -65,3 +65,4 @@ target/
 db_repository/
 config.py
 *.db
+tmp/
