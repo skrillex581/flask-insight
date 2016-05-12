@@ -24,7 +24,7 @@ if not app.debug:
 		credentials = (MAIL_USERNAME, MAIL_PASSWORD)
 	mail_handler = SMTPHandler((MAIL_SERVER, MAIL_PORT), 'no-reply@' + MAIL_SERVER, ADMINS, 'microblog failure', credentials)	
 	mail_handler.setLevel(logging.ERROR)
-	file_handler = RotatingFileHandler('tmp/microblog.log', 'a', 1 * 1024 * 1024, 10)
+	file_handler = RotatingFileHandler('microblog.log', 'a', 1 * 1024 * 1024, 10)
 	file_handler.setFormatter(logging.Formatter('%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d]'))	
 	file_handler.setLevel(logging.INFO)
 	app.logger.setLevel(logging.INFO)
