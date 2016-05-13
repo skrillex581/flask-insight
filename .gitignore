@@ -66,3 +66,4 @@ db_repository/
 #config.py
 *.db
 tmp/
+file::memory
