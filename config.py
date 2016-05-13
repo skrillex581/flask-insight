@@ -1,6 +1,8 @@
 import os
 basedir = os.path.abspath(os.path.dirname(__file__))
 
+MAX_SEARCH_RESULTS  = 20
+
 CSRF_ENABLED = True
 SECRET_KEY = 'scram-3TG-gr44nHAM90231-bcd'
 
@@ -26,3 +28,7 @@ MAIL_PASSWORD = None
 ADMINS = ['you@example.com']
 #pagination
 POSTS_PER_PAGE=3
+
+#full text search
+WHOOSH_BASE = os.path.join(basedir, 'search.db')
+
