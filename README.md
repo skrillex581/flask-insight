@@ -1,6 +1,5 @@
 [![Build Status](https://travis-ci.org/skrillex581/flask-insight.svg?branch=master)](https://travis-ci.org/skrillex581/flask-insight) [![Code Climate](https://codeclimate.com/github/skrillex581/flask-insight/badges/gpa.svg)](https://codeclimate.com/github/skrillex581/flask-insight)
 # NO LONGER MAINTAINED
-flask is dead.
 
 # flask-insight
 The `insight`ful thingamajig. Based on the [Flask megatutorial](http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
